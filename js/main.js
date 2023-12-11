@@ -159,7 +159,7 @@ var base_url = window.location.origin;
 let model;
 (async function(){  
     console.log("model loading...");  
-    model = await tf.loadLayersModel("https://github.com/JiteshMatta21/handwritten_Digital_Recognition/blob/main/model.json")
+    model = await tf.loadLayersModel("https://jiteshmatta21.github.io/handwritten_digit_recognition/model.json")
     console.log("model loaded..");
 })();
 
